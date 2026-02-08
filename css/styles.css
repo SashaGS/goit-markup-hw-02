@@ -70,10 +70,13 @@ address{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #fff;
 }
 
 .hero-btn {
+    font-weight: 500;
+    font-size: 16px;    
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: #4d5ae5;
@@ -81,7 +84,8 @@ address{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.hero-btn:hover{
+.hero-btn:hover,
+.hero-btn:focus{
     background: #404bbf;
 }
 /* #endregion */
@@ -94,6 +98,7 @@ address{
 .benefit-item {
 }
 .benefit-title {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -116,25 +121,30 @@ address{
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
 }
 
 .team-list {
 }
 
 .team-item {
+    background-color: #fff;
 }
 
 .team-name {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
 }
 
 .team-prof {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 /* #endregion */
@@ -148,6 +158,7 @@ address{
     line-height: 1.11111;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
 }
 
 .portfolio-list {
@@ -157,6 +168,7 @@ address{
 }
 
 .portfolio-title {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -186,5 +198,8 @@ address{
 }
 
 .footer-paragraf {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
 /* #endregion */
